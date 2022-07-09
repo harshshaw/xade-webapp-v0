@@ -18,7 +18,7 @@ export default function Component() {
         <div className={styles.adjust}>
             <section className={styles.navbar}>
                 {icons.map((icon) =>
-                        <img className = {styles.icon} src = {process.env.PUBLIC_URL + `/images/icons/${icon}.svg`}/>
+                        <img alt = {icon} className = {styles.icon} src = {process.env.PUBLIC_URL + `/images/icons/${icon}.svg`}/>
                 )}         
             </section>
         </div>

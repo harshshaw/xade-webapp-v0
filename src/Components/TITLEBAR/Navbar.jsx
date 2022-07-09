@@ -17,7 +17,7 @@ class Navbar extends React.Component {
                     
                 </div>
                 <div className  = "right-aligned">
-                    <button className = 'click-settings'><img className = 'settings-logo svg-adjust' src = {process.env.PUBLIC_URL + '/images/settings.svg'} /></button>
+                    <button className = 'click-settings'><img className = 'settings-logo svg-adjust' src = {process.env.PUBLIC_URL + '/images/settings.svg'} alt = 'settings'/></button>
                 </div>
             </div>
             )

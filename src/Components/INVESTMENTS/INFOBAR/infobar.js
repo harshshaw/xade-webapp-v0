@@ -7,7 +7,7 @@ export default function Component() {
         <div className={styles.horicenter}>
             <div className = {styles.infobar}>
                     <div className = {styles.details}>
-                        <img className = {styles.logo} src = {process.env.PUBLIC_URL + "/images/ticker/bitcoin.png  "}  />
+                        <img alt = 'btc' className = {styles.logo} src = {process.env.PUBLIC_URL + "/images/ticker/bitcoin.png  "}  />
                         <p className = {styles.name}>BTC</p>
                     </div>  
 
