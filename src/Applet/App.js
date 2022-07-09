@@ -9,11 +9,11 @@ export default function App()
 {
     return (
         <>
-            <Navbar/>
+            <TitleBar /> 
 
                 <Investments />
-
-            <TitleBar /> 
+          
+            <Navbar/>
         </>
     )
 }

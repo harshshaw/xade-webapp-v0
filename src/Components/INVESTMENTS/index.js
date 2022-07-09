@@ -5,9 +5,13 @@ import InfoBar from './INFOBAR'
 export default function Investments() {
     return (
         <>
+            <InfoBar />
+
+
+
             <MainSection />
             
-            <InfoBar />
+            
         </>
     )
 }

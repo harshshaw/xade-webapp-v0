@@ -1,0 +1,39 @@
+.titlebar {
+    /* position: fixed; */
+    height: 8vh;
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    padding-left: 3%;
+    padding-right: 2%;
+    background-color: rgba(255, 255, 255, 0.1);
+
+}
+
+@font-face {
+    font-family: LemonMilk;
+    src: url('./fonts/lemon_milk/LEMONMILK-Regular.otf');
+}
+.logo {
+    letter-spacing: 0.15rem;
+    font-family: LemonMilk;
+    position: relative;
+    top: -1.8rem;
+    display: inline;
+        font-size: 2rem;
+        color: white;  
+}
+
+.img {
+text-align: center;
+  
+}
+.settings {
+    filter: invert(100%) sepia(100%) saturate(2%) hue-rotate(204deg) brightness(102%) contrast(101%);
+    padding-top: 3px;
+    height: 70%;
+    
+}

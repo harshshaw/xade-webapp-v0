@@ -1,26 +1,27 @@
 import React from 'react';
 
+import './index.css'
+
 import styles from './index.module.css'
 
+
 export const icons = [
-    ['home', 'icons/home.svg'],
-    ['payments', 'icons/payments.svg'],
-    ['savings', 'icons/savings.svg'],
-    ['investments', 'icons/investmens.svg'],
+    'payments',
+    'home',
+    'investments',
 ]
 
 
 export default function Component() {
-     const listItems = icons.map((icon) =>
-        <li>{icon[0]}</li>
-    )   
     return (
 
-        <>
+        <div className={styles.adjust}>
             <section className={styles.navbar}>
-                {listItems}
+                {icons.map((icon) =>
+                        <img className = {styles.icon} src = {process.env.PUBLIC_URL + `/images/icons/${icon}.svg`}/>
+                )}         
             </section>
-        </>
+        </div>
     
     )
 }
