@@ -78,7 +78,7 @@ a{
   bottom: 3px;
 }
 
-button {
+.button {
   position: relative;
   bottom: 5px;
   width: 60%;
