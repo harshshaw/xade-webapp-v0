@@ -1,4 +1,3 @@
-import { findAllByTestId } from '@testing-library/react';
 import React from 'react';
 import styles from './mainsection.module.css'
 import Overview from './SubComp/Overview.jsx'
