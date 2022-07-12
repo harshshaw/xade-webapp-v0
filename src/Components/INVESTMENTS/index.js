@@ -5,6 +5,7 @@ import InfoBar from './INFOBAR'
 export default function Investments() {
     return (
         <>
+        
             <InfoBar />
 
 
@@ -14,4 +15,4 @@ export default function Investments() {
             
         </>
     )
-}
+}   

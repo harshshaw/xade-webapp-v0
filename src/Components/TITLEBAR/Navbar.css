@@ -6,14 +6,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Sora:wght@200&display=swap");
 
 .title-bar {
-  /* position: fixed; */
+  position: sticky;
   padding-top: 10px;
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: rgba(250, 250, 250, 0.5);
-  height: 4.5rem;
+  background-color: rgba(255, 255, 255, 0.05);
+  height: 3.4rem;
 }
 .left-aligned { 
   margin-left: 3%;
@@ -23,6 +23,7 @@
   width: 15%;
 }
 .left-aligned p {
+  color: white;
   padding: 0;
   margin-top: 0;
   display: inline-block;
@@ -56,6 +57,7 @@ a{
 
 
 .left-aligned .logo {
+  color: white;
   height: 4rem;
   font-family: LemonMilk;
   font-size: 2.2rem;
@@ -65,6 +67,7 @@ a{
 
 
 .logo {
+  
   font-size: 2.5rem !important;
   top: 4px !important;  
   position: relative !important;
@@ -74,6 +77,7 @@ a{
 .left-aligned .click-investments,
 .left-aligned .click-deposit,
 .left-aligned .click-offers {
+  font-size: 1.4rem;
   position: relative;
   bottom: 3px;
 }
@@ -112,7 +116,7 @@ a{
 
 @media screen and (max-width: 1099px) {
   .title-bar {
-    height: 4.5rem;
+    height: 3.4rem;
   }
 
   .left-aligned .click-home,
@@ -133,11 +137,11 @@ a{
 
   .click-settings {
     position: relative;
-    bottom: 10px;
+    bottom: 7px;
   }
 
   .logo {
-    top: -3px !important;
+    top: -1px !important;
     margin-left: 0;
     padding: 0;
   }

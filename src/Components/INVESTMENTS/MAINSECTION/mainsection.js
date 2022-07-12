@@ -1,15 +1,11 @@
 import React from 'react';
 import styles from './mainsection.module.css'
-import Overview from './SubComp/Overview.jsx'
-import Trade from './SubComp/Trade.jsx'
+import Overview from './SubComp/Overview/Overview.jsx'
+import Trade from './SubComp/Trade/Trade.jsx'
 
 
 export default function Component() {
     let [state, setState] = React.useState(true);
-
-
-
-
 
     return (
         
@@ -20,14 +16,13 @@ export default function Component() {
                         <button onClick = {() => setState(false)} className = {styles.tradeClick + "  " + ((!state)?styles.highlight:'')}>Trade</button>
                      </div>
             </div>
-
-            <div className = {styles.yeahthis}>
-                    {state ? 
-                        <Overview />
-                            :
-                        <Trade />
-                    }
-                </div>
+        {/* <div className={styles.thisshoulddo}> */}
+            {/* <div className = {styles.yeahthis}> */}
+                
+                        {state? <Overview /> : <Trade /> }
+                
+                {/* </div> */}
+        {/* </div> */}
         </>
     
         )
