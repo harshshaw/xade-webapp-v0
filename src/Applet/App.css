@@ -1,0 +1,25 @@
+@font-face {
+  font-family: LemonMilk;
+  src: url("../Assets/fonts/lemon_milk/LEMONMILK-Regular.otf");
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@200&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Sora', sans-serif;
+  
+  
+
+}
+
+.App{
+  background: #1c1d1e;
+  max-height: 90vh;
+}
+
+
+
+
+
